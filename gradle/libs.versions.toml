@@ -1,0 +1,41 @@
+[versions]
+agp = "8.13.2"
+kotlin = "2.1.0"
+coreKtx = "1.17.0"
+kotlinjdk8 = "2.3.0"
+material = "1.13.0"
+appcompat = "1.7.1"
+legacysupportv4 = "1.0.0"
+annotation = "1.9.1"
+markdownview = "v1.0.0"
+commonsio = "2.21.0"
+changelog = "2.1.0"
+juniversalchardet = "2.5.0"
+kotlinxcoroutinescore = "1.10.2"
+kotlinxcoroutinesandroid = "1.10.2"
+lifecycle = "2.2.0"
+lifecyclecommon = "2.10.0"
+junit = "6.1.0-M1"
+fragmentktx = "1.8.9"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "kotlinjdk8" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacysupportv4" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation"}
+markdownview-android = { group = "com.github.mukeshsolanki", name = "MarkdownView-Android", version.ref = "markdownview" }
+commons-io = { group = "commons-io", name = "commons-io", version.ref = "commonsio" }
+changelog = { group = "com.github.gabrielemariotti.changeloglib", name = "changelog", version.ref = "changelog" }
+juniversalchardet = { group = "com.github.albfernandez", name = "juniversalchardet", version.ref = "juniversalchardet" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxcoroutinescore" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxcoroutinesandroid" }
+lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle" }
+lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecyclecommon" }
+junit = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junit" }
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentktx" }
