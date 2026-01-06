@@ -7,7 +7,7 @@ material = "1.13.0"
 appcompat = "1.7.1"
 legacysupportv4 = "1.0.0"
 annotation = "1.9.1"
-markdownview = "v1.0.0"
+markdownview = "1.1.1"
 commonsio = "2.21.0"
 changelog = "2.1.0"
 juniversalchardet = "2.5.0"
@@ -21,6 +21,7 @@ fragmentktx = "1.8.9"
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+dynamic-feature = { id = "com.android.dynamic-feature", version.ref = "agp" }
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

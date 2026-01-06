@@ -28,11 +28,12 @@ android {
     lintOptions {
         disable 'MissingTranslation', 'ExtraTranslation'
     }
-
+    namespace "com.shared.turboeditor" 
     compileSdk 36
 
     defaultConfig {
-        minSdk 21
+        applicationId "com.shared.turboeditor"
+        minSdk 23
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -84,4 +85,5 @@ dependencies {
 
     testImplementation libs.junit
     implementation libs.fragment.ktx
+    implementation project(':app')
 }

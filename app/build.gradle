@@ -28,12 +28,13 @@ plugins {
 
 
 android {
+    dynamicFeatures = [':com.shared.turboeditor']
     namespace "com.maskyn.fileeditor"
     compileSdk 36
 
     defaultConfig {
         applicationId "com.maskyn.fileeditor"
-        minSdk 21
+        minSdk 23
         targetSdk 34
         versionCode 46
         versionName "1.20"
