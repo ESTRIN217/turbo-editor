@@ -58,14 +58,11 @@ android {
         exclude 'META-INF/NOTICE.txt'
     }
 
-    androidExtensions {
-        experimental = true
-    }
 }
 
 dependencies {
     api libs.androidx.appcompat
-    api libs.MarkdownView.Android
+    api libs.markdownview.android
 
     implementation libs.legacy.support.v4
 
@@ -78,7 +75,7 @@ dependencies {
     implementation libs.androidx.core.ktx
     implementation libs.kotlin.stdlib.jdk8
 
-    implementation libs.kotlinx.coroutines.core'
+    implementation libs.kotlinx.coroutines.core
     implementation libs.kotlinx.coroutines.android
 
 
@@ -87,8 +84,4 @@ dependencies {
 
     testImplementation libs.junit
     implementation libs.fragment.ktx
-}
-
-repositories {
-    mavenCentral()
 }

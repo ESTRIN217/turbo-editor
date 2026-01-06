@@ -42,7 +42,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
-    signingConfigs {
+    /*signingConfigs {
         release {
             Properties localProps = new Properties()
             localProps.load(new FileInputStream(file('../local.properties')))
@@ -54,7 +54,7 @@ android {
             storePassword keyProps["storePass"]
             keyPassword keyProps["pass"]
         }
-    }
+    }*/
     buildTypes {
         release {
             minifyEnabled false
